@@ -21,10 +21,10 @@ export const MenuBar = function({className}) {
       </Navbar.Brand>
       <Navbar.Collapse className="justify-content-end">
         <Nav className={` ${styles.Menu}`}>
-          <Nav.Link href='about'>
-            About (test)
+          <Nav.Link href='about' className={`${styles.Item}`}>
+            About
           </Nav.Link>
-          <NavDropdown title="Projects">
+          <NavDropdown title={<span className={`${styles.Item}`}>Project</span>}> 
             <NavDropdown.Item href='hotones'>
               Hot Ones
             </NavDropdown.Item>
@@ -35,13 +35,13 @@ export const MenuBar = function({className}) {
               Interviews
             </NavDropdown.Item>
           </NavDropdown>
-          <Nav.Link href='events'>
+          <Nav.Link href='events'className={`${styles.Item}`}>
             Events
           </Nav.Link>
-          <Nav.Link href='join'>
+          <Nav.Link href='join' className={`${styles.Item}`}>
             Join Us
           </Nav.Link>
-          <Nav.Link href='join'>
+          <Nav.Link href='join'className={`${styles.Item}`}>
             Shop
           </Nav.Link>
         </Nav>

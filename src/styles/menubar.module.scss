@@ -1,4 +1,5 @@
 @import "variables";
+@import url('https://fonts.googleapis.com/css2?family=Advent+Pro:wght@100;200;300;400;500;600;700&family=Lato&display=swap');
 
 .MenuBar{
   size: $heading-text-size;
@@ -21,11 +22,17 @@
 
 .Brand{
    display: flex;
-   font-family: "lato";
+   font-family: 'Lato', sans-serif !important;
    align-items: center;
 }
 
 .Header{
     padding-left: 5%;
+    color: #000000 !important;
+}
+
+.Item {
+  font-family: 'Lato', sans-serif !important;
+  color: #000000 !important;
 }
 

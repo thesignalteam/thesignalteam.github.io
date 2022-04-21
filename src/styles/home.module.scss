@@ -1,4 +1,6 @@
 @import "variables";
+@import url('https://fonts.googleapis.com/css2?family=Advent+Pro:wght@100;200;300;400;500;600;700&family=Lato&display=swap');
+
 
 .MailContainer{
   display: flex;
@@ -9,4 +11,38 @@
 .SubscribeContainer{
   display: flex;
   align-items: top;
+}
+
+.FootContainer {
+  background-color: #F1F1F1;
+  display: flex;
+  align-items: top;
+  flex-direction: column;
+  width: 1024px;
+height: 235px;
+}
+
+.Item {
+  font-family: 'Lato';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 22px;
+
+  color: #000000 !important;
+}
+
+.Trademark {
+  font-family: 'Lato';
+  font-style: italic;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 17px;
+
+  color: #000000;
+
+}
+
+.FooterNav {
+  height: 7em;
 }
