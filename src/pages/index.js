@@ -4,7 +4,7 @@ import { MenuBar } from '../components/MenuBar'
 import * as React from 'react'
 import '../../node_modules/bootstrap/dist/css/bootstrap.min.css'
 
-const IndexPage = () => {
+function IndexPage() {
   return ( 
     <Container fluid>
       <MenuBar></MenuBar>
@@ -45,4 +45,4 @@ const IndexPage = () => {
   )
 }
 
-export default IndexPage
+export default IndexPage;
