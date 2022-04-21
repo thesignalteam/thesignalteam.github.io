@@ -23,7 +23,7 @@ export const MenuBar = function({className}) {
       <Navbar.Collapse className="justify-content-end">
         <Nav className={` ${styles.Menu}`}>
           <Nav.Link href='about'>
-            About
+            About (test)
           </Nav.Link>
           <NavDropdown title="Projects">
             <NavDropdown.Item href='hotones'>
