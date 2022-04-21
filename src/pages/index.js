@@ -1,11 +1,11 @@
-import * as React from "react"
-import * as styles from "../public/static/styles/home.module.scss"
+import * as styles from "../styles/home.module.scss"
 import { Container, Row, Image, Col, Form, Button } from "react-bootstrap"
 import { MenuBar } from '../components/MenuBar'
+import * as React from 'react'
 import '../../node_modules/bootstrap/dist/css/bootstrap.min.css'
 
 const IndexPage = () => {
-  return (
+  return ( 
     <Container fluid>
       <MenuBar></MenuBar>
       <Row>
@@ -18,7 +18,7 @@ const IndexPage = () => {
         <Col md={5}>
           <Container className={`${styles.MailContainer}`}>
             <Image 
-              src={require(`../public/static/images/mail.png`).default}
+              src={require(`../images/mail.png`).default}
               width={88}
               height={43}
             />

@@ -1,0 +1,31 @@
+@import "variables";
+
+.MenuBar{
+  size: $heading-text-size;
+  justify-content: flex-end;
+}
+
+  
+.Link{
+  color: white !important;
+}
+
+.Container{
+  margin: 0 !important;
+  padding: 0 !important;
+  border: none !important;
+  outline: none !important;
+  padding-right: 2% !important;
+  vertical-align: center;
+}
+
+.Brand{
+   display: flex;
+   font-family: "lato";
+   align-items: center;
+}
+
+.Header{
+    padding-left: 5%;
+}
+

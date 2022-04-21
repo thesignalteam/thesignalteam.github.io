@@ -1,8 +1,7 @@
 import * as React from 'react'
-import * as styles from "../public/static/styles/menubar.module.scss"
+import * as styles from "../styles/menubar.module.scss"
 import { Navbar, Nav, Container, Image, NavDropdown, NavbarBrand } from 'react-bootstrap'
 import '../../node_modules/bootstrap/dist/css/bootstrap.min.css'
-
 
 export const MenuBar = function({className}) {
   return (
@@ -12,7 +11,7 @@ export const MenuBar = function({className}) {
         <Nav.Link href='#'>
           <Container className={`${styles.Brand}`}>
             <Image 
-              src={require(`../public/static/images/logo.png`).default}
+              src={require(`../images/logo.png`).default}
               width={80}
               height={80}
             />
