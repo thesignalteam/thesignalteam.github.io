@@ -6,11 +6,16 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  font-family: 'Lato';
+font-style: normal;
 }
 
 .SubscribeContainer{
   display: flex;
   align-items: top;
+  justify-content: start;
+  padding: 0 !important;
+  font-family: 'Lato';
 }
 
 .FootContainer {
@@ -25,7 +30,7 @@ height: 235px;
 .Item {
   font-family: 'Lato';
   font-style: normal;
-  font-weight: 700;
+  font-weight: bold;
   font-size: 18px;
   line-height: 22px;
 
@@ -45,4 +50,111 @@ height: 235px;
 
 .FooterNav {
   height: 7em;
+}
+
+.EventCard{
+  font-family: 'Lato';
+  width: 432px;
+  height: 39px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.EventCardTitle {
+  font-style: normal !important;
+  font-weight: 600  !important;
+  font-size: 32px  !important;
+  line-height: 38px  !important;
+}
+
+.EventCard p {
+  font-size: 14px !important;
+}
+.EventCard a {
+  color: #072A60 !important;
+  font-size: 14px !important;
+}
+
+.EventCardContainer {
+  width: 18rem !important;
+  border: none !important;
+}
+
+.ProjectCard {
+  border: 1px solid #BDBDBD;
+  width: 150px !important;
+  height: 200px !important;
+  box-sizing: border-box;
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25)) !important;
+  border-radius: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.ProjectCol {
+  width: 160px !important;
+  height: 210px !important;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0 !important;
+  box-sizing: content-box;
+}
+
+.FormContainer {
+  height: 29px !important;
+  width: 346px !important;
+}
+
+.FormInput {
+  border-radius: 0px !important;
+  border: 0px !important;
+  transition: none !important;
+}
+
+.FormInput:focus {
+  outline: none !important;
+  box-shadow: none !important;
+}
+
+::placeholder {
+  color: #BDBDBD !important;
+}
+
+.Button {
+  border-radius: 0px !important;
+  border-width: 0px !important;
+  background: #FFFFFF !important; 
+  color: black !important;
+  font-weight: bold !important;
+}
+
+.Button:focus {
+  outline: none !important;
+  box-shadow: none !important;
+}
+
+
+
+
+.ButtonBorder { 
+  box-sizing: content-box;
+  border-width: 1px;
+  border-style: solid;
+  border-left-width: 0px;
+  border-image: linear-gradient(to bottom, #FCECBC, #EBEBEB);
+  border-image-slice: 1;
+}
+.FormBorder { 
+  box-sizing: content-box;
+  border-width: 1px;
+  border-style: solid;
+  border-image: linear-gradient(to bottom, #FCECBC, #EBEBEB);
+  border-image-slice: 1;
+}
+
+.MailRow {
+  margin-bottom: 40px;
 }
