@@ -87,7 +87,7 @@ function IndexPage() {
                 <Nav.Link href='projects'className={`${styles.Item}`}>
                   Projects
                 </Nav.Link>
-                <Nav.Link href='about' className={`${styles.Item}`}>
+                <Nav.Link href='/about' className={`${styles.Item}`}>
                   About
                 </Nav.Link>
               </Nav>

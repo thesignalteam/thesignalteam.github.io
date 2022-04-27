@@ -8,7 +8,7 @@ export const MenuBar = function({className}) {
   <Navbar>
     <Container fluid className={`${styles.Container}`}>
       <Navbar.Brand>
-        <Nav.Link href='#'>
+        <Nav.Link href='/'>
           <Container className={`${styles.Brand}`}>
             <Image 
               src={require(`../images/logo.png`).default}
@@ -21,7 +21,7 @@ export const MenuBar = function({className}) {
       </Navbar.Brand>
       <Navbar.Collapse className="justify-content-end">
         <Nav className={` ${styles.Menu}`}>
-          <Nav.Link href='about' className={`${styles.Item}`}>
+          <Nav.Link href='/about' className={`${styles.Item}`}>
             About
           </Nav.Link>
           <NavDropdown title={<span className={`${styles.Item}`}>Project</span>}> 
@@ -33,6 +33,9 @@ export const MenuBar = function({className}) {
             </NavDropdown.Item>
             <NavDropdown.Item href='interviews'>
               Interviews
+            </NavDropdown.Item>
+            <NavDropdown.Item href='http://antiresume.org/'>
+              Anti-Resume
             </NavDropdown.Item>
           </NavDropdown>
           <Nav.Link href='events'className={`${styles.Item}`}>
