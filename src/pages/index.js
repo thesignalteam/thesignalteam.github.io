@@ -27,7 +27,7 @@ function IndexPage() {
             </Card>
           </Col>
       </Row>
-      <Row style={{margin: 0}}>
+      <Row className={`${styles.ProjectRow}`}>
         <div className={`${styles.ProjectCol}`}
           onMouseEnter={() => setIsShown(false)}
           onMouseLeave={() => setIsShown(true)}>
