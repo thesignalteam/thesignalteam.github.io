@@ -41,7 +41,13 @@ export const MenuBar = function({className}) {
           <Nav.Link href='join' className={`${styles.Item}`}>
             Join Us
           </Nav.Link>
-          <Nav.Link href='join'className={`${styles.Item}`}>
+          <Nav.Link href='join'className={`${styles.Item, styles.Shop}`}>
+            <img
+              src={require(`../images/cart.png`).default}
+              width={17}
+              height={16}
+              style={{marginRight: "7px"}}
+            />
             Shop
           </Nav.Link>
         </Nav>
